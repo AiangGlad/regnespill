@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="addisjon.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Addisjon</title>
+</head>
+<body>
+        
+        <article>
+
+        <header>
+        <h1>Velg tid</h1> 
+        </header>
+
+        <div class="intro">
+        <div class="velg">
+        <input id="slider" type="range" min="0" max="60">
+        <div class="tidinfo">
+        <p>60</p>
+        <p>30</p>
+        <p>1</p>
+        <button id="fake">start tiden</button>
+        <button id="starttid">start tiden</button>
+        </div>
+        </div>
+        </div>
+
+        </article>
+
+    <div class="alt">
+    <header>
+    <h1>Regnespill</h1>
+    <h2 id="divisjon">Addisjon</h2>
+    </header>
+
+    <main>
+        <p id="oppgave">? + ? = ?</p>
+        <label for="svar">Svar:</label>
+        <input type="number" id="svar">
+        <button id="sjekk">Sjekk svar</button>
+        <button id="reset">Prøv igjen</button>
+
+    </main>
+
+
+    <p id="konklusjon">Test deg</p>
+    </div>
+
+    <article class="ned">
+        <h2>Nedteller</h2>
+    <div class="countdown">
+        <p id="nedteller"></p>
+    </div>
+    </article>
+    <script src ="addisjon.js"></script>
+</body>
+</html>
